@@ -1,0 +1,13 @@
+---- ResID Matches (13 in 3 files) ----
+FoodOrder.c (application):				HttpGET_VersionString(pBufNonBlock,(char*)VersionURL, (char*)ResID,VersionString,(char*)IP,(char*)Port);
+FoodOrder.c (application):				GetHttpGETString(pBufNonBlock,(char*)RequestWebURL, (char*)ResID, (char*)LoginWebUsername, (char*)LoginWebPassword, (char*)IP,(char*)Port);
+FoodOrder.c (application):				HttpGET_VersionString(pBufNonBlock,(char*)VersionURL, (char*)ResID,VersionString,(char*)IP,(char*)Port);
+FoodOrder.c (application):				GetHttpGETString(pBufNonBlock,(char*)RequestWebURL, (char*)ResID, (char*)LoginWebUsername, (char*)LoginWebPassword, (char*)IP,(char*)Port);
+Setting.c (application):unsigned char ResID[10+1];
+Setting.c (application):	{ResID, "1845"},
+Setting.c (application):	memset(ResID,0,sizeof(ResID));
+Setting.c (application):	strcpy((char*)ResID,p);
+Setting.c (application):	unsigned char buff[sizeof (ResID)];
+Setting.c (application):	strcpy ( (s8*) buff, (sc8*) ResID);
+Setting.c (application):	strcpy ( (s8*) ResID, (sc8*) buff);
+Setting.h (application):extern unsigned char ResID[10+1];

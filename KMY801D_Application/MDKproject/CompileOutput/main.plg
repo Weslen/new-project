@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\KMY\work project\FoodOrder Project\KMY801D FoodOrder_Australia_Anthony Daisy\FoodOrder\801D_Application\MDKproject\main.uvproj
+Project File Date:  08/31/2012
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling setting.c...
+..\Application\setting.c(1678): error:  #146: too many initializer values
+..\Application\setting.c:               {"8.读取相关信息", "8.Version Info", ReadSomeMessage},
+..\Application\setting.c:               ^
+..\Application\setting.c: ..\Application\setting.c: 0 warnings, 1 error
+Target not created
+Build target 'Target 1'
+compiling setting.c...
+linking...
+Program Size: Code=108242 RO-data=54726 RW-data=812 ZI-data=27004  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o output\main.bin CompileOutput\main.axf
+".\CompileOutput\main.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling Version.c...
+linking...
+Program Size: Code=108242 RO-data=54726 RW-data=812 ZI-data=27004  
+User command #1: C:\Keil\ARM\BIN40\fromelf.exe --bin -o output\main.bin CompileOutput\main.axf
+".\CompileOutput\main.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\KMY\\work project\\FoodOrder Project\\KMY801D FoodOrder_Australia_Anthony Daisy\\FoodOrder\\801D_Application\\MDKproject\\CompileOutput\\main.AXF" 
+Set JLink Project File to "E:\KMY\work project\FoodOrder Project\KMY801D FoodOrder_Australia_Anthony Daisy\FoodOrder\801D_Application\MDKproject\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.15n, compiled Jun 18 2010 19:55:09
+Firmware: J-Link ARM V8 compiled May 20 2010 17:07:46
+Hardware: V8.00
+S/N : 270676280 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFULL 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F101RC
+VTarget = 3.241V
+State of Pins: 
+TCK: 0, TDI: 1, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Application running ...
